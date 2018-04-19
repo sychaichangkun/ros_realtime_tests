@@ -1,0 +1,5 @@
+	INFO: Measurement results:
+	INFO: Amount messages: 1000; Messages out of order: 0
+	INFO: MIN: 93us	AVG: 302us	MAX: 709us
+	INFO: Indices of top values(|latency:index|): |709:269|590:965|506:968|471:877|431:5|409:616|404:0|404:347|399:73|397:629|
+	INFO: Indices of lowest values(|latency:index|): |93:499|111:549|115:539|117:561|122:473|123:497|129:500|130:531|130:557|131:468|

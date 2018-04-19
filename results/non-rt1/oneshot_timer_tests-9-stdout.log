@@ -1,0 +1,8 @@
+	INFO: Performing ROS Timer latency measurements...
+	INFO: Running in default mode
+	INFO: Measurement results with a loop length of 1000 and a timeout of 1000 us:
+	INFO: Measured:	MIN:  84us 	AVG:  187us 	MAX:  298us
+	INFO: Reported:	MIN:  85us 	AVG:  192us 	MAX:  303us
+	INFO: Difference:	MIN: -1us	AVG: 4us	MAX: 22us
+	INFO: Indices of top values(|latency:index|): |298:253|290:346|286:591|283:314|283:550|282:476|281:548|279:610|278:252|274:39|
+	INFO: Indices of lowest values(|latency:index|): |84:4|87:5|88:57|88:141|90:921|92:840|92:973|93:1|94:861|95:829|

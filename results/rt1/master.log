@@ -1,0 +1,116 @@
+[rosmaster.main][INFO] 2018-04-18 23:15:46,749: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-04-18 23:15:46,749: Starting ROS Master Node
+[xmlrpc][INFO] 2018-04-18 23:15:46,750: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-04-18 23:15:46,751: Started XML-RPC server [http://ubuntu:11311/]
+[rosmaster.master][INFO] 2018-04-18 23:15:46,751: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[xmlrpc][INFO] 2018-04-18 23:15:46,751: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-04-18 23:15:46,802: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-04-18 23:15:46,804: +PARAM [/roslaunch/uris/host_ubuntu__37993] by /roslaunch
+[rosmaster.master][INFO] 2018-04-18 23:15:46,889: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-04-18 23:15:46,889: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-04-18 23:15:46,897: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:42891/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,898: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:42891/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,900: +PUB [/rosout_agg] /rosout http://ubuntu:42891/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,905: +SUB [/rosout] /rosout http://ubuntu:42891/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,910: +PUB [/rosout] /ct_subscriber0 http://ubuntu:32953/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,910: +SERVICE [/ct_subscriber0/get_loggers] /ct_subscriber0 http://ubuntu:32953/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,911: +SERVICE [/ct_subscriber0/set_logger_level] /ct_subscriber0 http://ubuntu:32953/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,916: +SUB [/communication_tests] /ct_subscriber0 http://ubuntu:32953/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,921: +PUB [/rosout] /ct_subscriber1 http://ubuntu:46531/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,925: +SERVICE [/ct_subscriber1/get_loggers] /ct_subscriber1 http://ubuntu:46531/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,926: +SERVICE [/ct_subscriber1/set_logger_level] /ct_subscriber1 http://ubuntu:46531/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,931: +PUB [/rosout] /ct_subscriber2 http://ubuntu:45365/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,932: +SUB [/communication_tests] /ct_subscriber1 http://ubuntu:46531/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,932: +SERVICE [/ct_subscriber2/get_loggers] /ct_subscriber2 http://ubuntu:45365/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,933: +SERVICE [/ct_subscriber2/set_logger_level] /ct_subscriber2 http://ubuntu:45365/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,937: +SUB [/communication_tests] /ct_subscriber2 http://ubuntu:45365/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,941: +PUB [/rosout] /ct_subscriber3 http://ubuntu:35901/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,942: +SERVICE [/ct_subscriber3/get_loggers] /ct_subscriber3 http://ubuntu:35901/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,942: +SERVICE [/ct_subscriber3/set_logger_level] /ct_subscriber3 http://ubuntu:35901/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,949: +SUB [/communication_tests] /ct_subscriber3 http://ubuntu:35901/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,950: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/']
+[rosmaster.master][INFO] 2018-04-18 23:15:46,952: +PUB [/rosout] /ct_subscriber4 http://ubuntu:46873/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,952: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:46,952: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/']
+[rosmaster.master][INFO] 2018-04-18 23:15:46,953: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:46,953: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/']
+[rosmaster.master][INFO] 2018-04-18 23:15:46,953: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:46,954: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/']
+[rosmaster.master][INFO] 2018-04-18 23:15:46,954: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:46,954: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/']
+[rosmaster.master][INFO] 2018-04-18 23:15:46,955: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:46,956: +SERVICE [/ct_subscriber4/get_loggers] /ct_subscriber4 http://ubuntu:46873/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,956: +SERVICE [/ct_subscriber4/set_logger_level] /ct_subscriber4 http://ubuntu:46873/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,960: +SUB [/communication_tests] /ct_subscriber4 http://ubuntu:46873/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,962: +PUB [/rosout] /ct_publisher http://ubuntu:33663/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,963: +SERVICE [/ct_publisher/get_loggers] /ct_publisher http://ubuntu:33663/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,963: +SERVICE [/ct_publisher/set_logger_level] /ct_publisher http://ubuntu:33663/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,965: +PUB [/communication_tests] /ct_publisher http://ubuntu:33663/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,971: +PUB [/rosout] /cyclic_timer_tests http://ubuntu:41553/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,972: +SERVICE [/cyclic_timer_tests/get_loggers] /cyclic_timer_tests http://ubuntu:41553/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,973: +SERVICE [/cyclic_timer_tests/set_logger_level] /cyclic_timer_tests http://ubuntu:41553/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,982: +PUB [/rosout] /oneshot_timer_tests http://ubuntu:41843/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,983: +SERVICE [/oneshot_timer_tests/get_loggers] /oneshot_timer_tests http://ubuntu:41843/
+[rosmaster.master][INFO] 2018-04-18 23:15:46,983: +SERVICE [/oneshot_timer_tests/set_logger_level] /oneshot_timer_tests http://ubuntu:41843/
+[rosmaster.master][INFO] 2018-04-18 23:15:47,050: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,051: publisherUpdate[/communication_tests] -> http://ubuntu:32953/ ['http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,053: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:47,054: publisherUpdate[/communication_tests] -> http://ubuntu:46531/ ['http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,055: publisherUpdate[/communication_tests] -> http://ubuntu:45365/ ['http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,055: publisherUpdate[/communication_tests] -> http://ubuntu:32953/ ['http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:47,057: publisherUpdate[/communication_tests] -> http://ubuntu:46531/ ['http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:47,057: publisherUpdate[/communication_tests] -> http://ubuntu:35901/ ['http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,057: publisherUpdate[/communication_tests] -> http://ubuntu:46873/ ['http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,059: publisherUpdate[/communication_tests] -> http://ubuntu:45365/ ['http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:47,060: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/', 'http://ubuntu:41553/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,062: publisherUpdate[/communication_tests] -> http://ubuntu:46873/ ['http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:47,062: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/', 'http://ubuntu:41553/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:47,063: publisherUpdate[/communication_tests] -> http://ubuntu:35901/ ['http://ubuntu:33663/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:47,063: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/', 'http://ubuntu:41553/', 'http://ubuntu:41843/']
+[rosmaster.master][INFO] 2018-04-18 23:15:47,066: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/', 'http://ubuntu:41553/', 'http://ubuntu:41843/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:48,177: -PUB [/rosout] /cyclic_timer_tests http://ubuntu:41553/
+[rosmaster.master][INFO] 2018-04-18 23:15:48,179: -SERVICE [/cyclic_timer_tests/get_loggers] /cyclic_timer_tests rosrpc://ubuntu:44891
+[rosmaster.master][INFO] 2018-04-18 23:15:48,181: -SERVICE [/cyclic_timer_tests/set_logger_level] /cyclic_timer_tests rosrpc://ubuntu:44891
+[rosmaster.master][INFO] 2018-04-18 23:15:48,266: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/', 'http://ubuntu:41843/']
+[rosmaster.master][INFO] 2018-04-18 23:15:48,267: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/', 'http://ubuntu:41843/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:48,378: -SERVICE [/oneshot_timer_tests/get_loggers] /oneshot_timer_tests rosrpc://ubuntu:57799
+[rosmaster.master][INFO] 2018-04-18 23:15:48,380: -SERVICE [/oneshot_timer_tests/set_logger_level] /oneshot_timer_tests rosrpc://ubuntu:57799
+[rosmaster.master][INFO] 2018-04-18 23:15:48,577: -PUB [/rosout] /oneshot_timer_tests http://ubuntu:41843/
+[rosmaster.master][INFO] 2018-04-18 23:15:48,667: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:48,669: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:45365/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:49,077: -PUB [/rosout] /ct_subscriber2 http://ubuntu:45365/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,079: -PUB [/rosout] /ct_subscriber4 http://ubuntu:46873/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,082: -PUB [/rosout] /ct_subscriber3 http://ubuntu:35901/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,083: -PUB [/rosout] /ct_subscriber1 http://ubuntu:46531/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,085: -PUB [/rosout] /ct_subscriber0 http://ubuntu:32953/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,086: -PUB [/rosout] /ct_publisher http://ubuntu:33663/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,088: -SUB [/communication_tests] /ct_subscriber2 http://ubuntu:45365/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,091: -SUB [/communication_tests] /ct_subscriber4 http://ubuntu:46873/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,092: -SUB [/communication_tests] /ct_subscriber3 http://ubuntu:35901/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,094: -SUB [/communication_tests] /ct_subscriber1 http://ubuntu:46531/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,096: -SUB [/communication_tests] /ct_subscriber0 http://ubuntu:32953/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,097: -PUB [/communication_tests] /ct_publisher http://ubuntu:33663/
+[rosmaster.master][INFO] 2018-04-18 23:15:49,099: -SERVICE [/ct_subscriber2/get_loggers] /ct_subscriber2 rosrpc://ubuntu:38009
+[rosmaster.master][INFO] 2018-04-18 23:15:49,102: -SERVICE [/ct_subscriber4/get_loggers] /ct_subscriber4 rosrpc://ubuntu:45011
+[rosmaster.master][INFO] 2018-04-18 23:15:49,103: -SERVICE [/ct_subscriber3/get_loggers] /ct_subscriber3 rosrpc://ubuntu:51471
+[rosmaster.master][INFO] 2018-04-18 23:15:49,104: -SERVICE [/ct_subscriber1/get_loggers] /ct_subscriber1 rosrpc://ubuntu:53993
+[rosmaster.master][INFO] 2018-04-18 23:15:49,107: -SERVICE [/ct_subscriber0/get_loggers] /ct_subscriber0 rosrpc://ubuntu:33839
+[rosmaster.master][INFO] 2018-04-18 23:15:49,108: -SERVICE [/ct_publisher/get_loggers] /ct_publisher rosrpc://ubuntu:47089
+[rosmaster.master][INFO] 2018-04-18 23:15:49,110: -SERVICE [/ct_subscriber2/set_logger_level] /ct_subscriber2 rosrpc://ubuntu:38009
+[rosmaster.master][INFO] 2018-04-18 23:15:49,111: -SERVICE [/ct_subscriber4/set_logger_level] /ct_subscriber4 rosrpc://ubuntu:45011
+[rosmaster.master][INFO] 2018-04-18 23:15:49,113: -SERVICE [/ct_subscriber3/set_logger_level] /ct_subscriber3 rosrpc://ubuntu:51471
+[rosmaster.master][INFO] 2018-04-18 23:15:49,114: -SERVICE [/ct_subscriber1/set_logger_level] /ct_subscriber1 rosrpc://ubuntu:53993
+[rosmaster.master][INFO] 2018-04-18 23:15:49,116: -SERVICE [/ct_subscriber0/set_logger_level] /ct_subscriber0 rosrpc://ubuntu:33839
+[rosmaster.master][INFO] 2018-04-18 23:15:49,117: -SERVICE [/ct_publisher/set_logger_level] /ct_publisher rosrpc://ubuntu:47089
+[rosmaster.master][INFO] 2018-04-18 23:15:49,170: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:49,172: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:35901/', 'http://ubuntu:46873/', 'http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:49,173: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:35901/', 'http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:49,174: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:35901/', 'http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:49,175: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:49,176: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:46531/', 'http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:49,176: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:49,177: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:32953/', 'http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:49,178: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:33663/']
+[rosmaster.master][INFO] 2018-04-18 23:15:49,179: publisherUpdate[/rosout] -> http://ubuntu:42891/ ['http://ubuntu:33663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-04-18 23:15:49,179: publisherUpdate[/rosout] -> http://ubuntu:42891/ []
+[rosmaster.master][INFO] 2018-04-18 23:15:49,180: publisherUpdate[/rosout] -> http://ubuntu:42891/ []: sec=0.00, result=[1, '', 0]

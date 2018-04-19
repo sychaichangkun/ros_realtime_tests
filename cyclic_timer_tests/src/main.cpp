@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
 	Logger::INFO("Performing latency measurements...");
 	CyclicLatencyMeasurer measurer;
 	measurer.measure();
-	//measurer.printMeasurementResults();
-	//measurer.savePlottableData();
+	measurer.printMeasurementResults();
+	measurer.savePlottableData();
 	return 0;
 }

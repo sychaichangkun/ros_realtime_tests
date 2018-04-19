@@ -1,0 +1,9 @@
+	INFO: Performing latency measurements...
+	INFO: Measurement results with a total of 1000 measurements and a frequency of 1000Hz:
+	INFO: Jitter:	MIN: -993us	AVG: 0us	MAX: 531us
+	INFO: Indices of top values(|latency:index|): |531:287|446:714|422:246|394:278|382:322|381:861|376:473|374:625|374:754|371:241|
+	INFO: Indices of lowest values(|latency:index|): |-993:5|-992:24|-979:77|-977:807|-977:984|-975:200|-975:298|-975:328|-975:389|-975:888|
+	INFO: Measurement results with a total of 1000 measurements and a frequency of 1000Hz:
+	INFO: Jitter:	MIN: -993us	AVG: 0us	MAX: 531us
+	INFO: Indices of top values(|latency:index|): |531:287|446:714|422:246|394:278|382:322|381:861|376:473|374:625|374:754|371:241|
+	INFO: Indices of lowest values(|latency:index|): |-993:5|-992:24|-979:77|-977:807|-977:984|-975:200|-975:298|-975:328|-975:389|-975:888|
